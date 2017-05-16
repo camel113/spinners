@@ -1,0 +1,26 @@
+{
+  "name": "spishop",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Adrien Bigler",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.1.5",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-less": "2.0",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.8",
+    "pump": "^1.0.2",
+    "run-sequence": "^1.2.2",
+    "spectre.css": "^0.2.14"
+  },
+  "dependencies": {
+    "gulp-less": "^2.0.3",
+    "spectre.scss": "0.0.1"
+  }
+}
