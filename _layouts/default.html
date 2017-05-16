@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {% if jekyll.environment == "production" %}
-      <style>{% include main.css %}</style>
-    {% else %}
-      <link rel="stylesheet" href="{{ "/assets/styles/main.css" | prepend: site.baseurl_root }}">
-    {% endif %}
-  </head>
+  {% include head.html %}
   <body>
-  	<section class="container grid-480">
-  		{% include header.html %}
-  		{{content}}
-  		{% include footer.html %}
-  	</section>
-    <link rel="stylesheet" href="{{ "/assets/vendors/icomoon.css" | prepend: site.baseurl_root }}">
+		{% include header.html %}
+		{{content}}
+		{% include footer.html %}
+    <script src="assets/js/wow.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="/assets/js/swiper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery.countTo.js"></script>
+    <script src="/assets/js/jquery.inview.js"></script>
+    <script src="/assets/js/jquery.countdown.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
