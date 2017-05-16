@@ -16,7 +16,7 @@ const base_path = './';
 var assetsDevDir = {
   path: base_path + '_assets/',
 }
-assetsDevDir.styles = assetsDevDir.path + 'styles/**/*.scss';
+assetsDevDir.styles = assetsDevDir.path + 'styles/*.scss';
 var siteDir = {
   path: base_path + '_site/',
   assets: {}
