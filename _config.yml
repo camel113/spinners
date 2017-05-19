@@ -16,3 +16,6 @@ gems:
 future: true
 paginate: 12
 paginate_path: "/page:num/"
+
+collections:
+  - spinners

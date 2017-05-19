@@ -1,0 +1,28 @@
+<!-- SINGLE PRODUCT BOX -->
+<div class="swiper-slide">
+	<div class="product-box product-box-vertical pb-30 ">
+		<div class="product-box-wrapper product-box-wrapper-bg no-padding">
+			<div class="product-box-image">
+				<a href="#">
+					<img class="img-responsive product-box-image-primary" src="assets/img/products/{{spinner.image}}" alt="product image">
+					<img class="img-responsive product-box-image-secondary" src="assets/img/products/{{spinner.image}}" alt="product image">
+				</a>
+			</div>
+			<div class="product-box-details">
+				<span class="product-box-new">new!</span>
+				<h5>{{spinner.name}}</h5>
+				<span class="product-box-old-price">{{spinner.old-price}}</span>
+				<span class="product-box-price h5">{{spinner.price}}</span>
+				<a class="btn btn-link btn-sm no-padding add-item" 
+					data-item-name="{{ spinner.name }}"
+    			data-item-id="{{ spinner.sku }}"
+  				data-item-image="{{ spinner.image }}"
+    			data-item-url="{{ spinner.baseurl }}"
+    			data-item-price="{{ spinner.price }}">
+					Ajouter au panier
+				</a>  
+			</div>
+		</div>
+	</div>
+	<!-- / SINGLE PRODUCT BOX-->
+</div>
