@@ -18,4 +18,5 @@ paginate: 12
 paginate_path: "/page:num/"
 
 collections:
-  - spinners
+  spinners:
+    output: true

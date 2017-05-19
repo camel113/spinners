@@ -1,11 +1,12 @@
 ---
-name: Fidget Spinner Black
+name: Fidget Spinner Noir
 image: spinner-black.jpg
 price: "10.90"
 old-price: "14.90"
 slug: fidget-spinner-noir
 sku: fsb
+layout: spinner-details
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper ante non vehicula eleifend.
-Phasellus ut feugiat tellus, vitae malesuada mi. Sed placerat ultrices enim, id fermentum ante tincidunt nec.
-Nulla ut mi bibendum, sodales ex ut, tempor odio. Mauris finibus elit eget ornare efficitur. Fusce a mauris vitae lorem.
+Fidget Spinner Enfant ou Adulte - Roulement en Acier Haute Vitesse - Tourne 1 Minute - Jeu Sensoriel Tri-Spinner Fidget Toy
+
+Excellent jouet sensoriel pour celles et ceux qui ont toujours les mains agitées. Faites-le tourner pendant des heures avec une ou deux mains.

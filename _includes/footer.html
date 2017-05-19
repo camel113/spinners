@@ -2,47 +2,26 @@
   <div class="footer pt-60 pb-60" id="footer">
     <div class="container">
       <div class="row">
-        <div class="smartphone-fw col-sm-3">
-          <h6 class="heading mt-0"><span>//</span> CONTACT DATA</h6>
-          <address>
-            <strong>Laurent store</strong><br/>
-            1355 Market Street, Suite 900<br/>
-            San Francisco, CA 94103<br/>
-            (123) 456-7890
-          </address>
+        <div class="smartphone-fw col-xs-6 col-sm-3 col-md-2">
+          <h6 class="heading mt-0"><span>//</span> CONTACT</h6>
+          <a href="#">info@spishop.ch</a>
         </div>
-        <div class="smartphone-fw col-xs-6 col-sm-4 col-md-2">
-          <h6 class="heading mt-0"><span>//</span> INFORMATION</h6>
-          <ul>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-          </ul>
+        <div class="smartphone-fw col-xs-6 col-sm-3 col-md-2">
+          <h6 class="heading mt-0"><span>//</span> MODES DE PAIEMENT</h6>
+          <img src="/assets/img/visa-mastercard.png" class="img-responsive visa-mastercard">
         </div>
 
-        <div class="smartphone-fw col-xs-6 col-sm-4 col-md-2">
-          <h6 class="heading mt-0"><span>//</span> TOP CATEGORIES</h6>
+        <div class="smartphone-fw col-xs-6 col-sm-3 col-md-2">
+          <h6 class="heading mt-0"><span>//</span> TOP SPINNERS</h6>
           <ul>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-          </ul>
-        </div>
-
-        <div class="smartphone-fw col-xs-6 col-sm-4 col-md-2">
-          <h6 class="heading mt-0"><span>//</span> ACCOUNT</h6>
-          <ul>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
-            <li> <a href="#"> Lorem Ipsum </a> </li>
+            {% for spinner in site.spinners %}
+              <li> <a href="">Fidget spinner noir</a> </li>
+            {% endfor %}
           </ul>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <h6 class="heading mt-0"><span>//</span> STAY IN TOUCH</h6>
+          <h6 class="heading mt-0"><span>//</span> NEWSLETTER</h6>
 
           <form>
             <fieldset>
@@ -57,9 +36,7 @@
 
           <ul class="footer-social" data-wow-delay="0.6s">
             <li><a href="#" class="pull-left"><span class="ti-facebook"></span></a></li>
-            <li><a href="#" class="pull-left"><span class="ti-twitter"></span></a></li>
             <li><a href="#" class="pull-left"><span class="ti-instagram"></span></a></li>
-            <li><a href="#" class="pull-left"><span class="ti-youtube"></span></a></li>
           </ul>
         </div>
       </div>
@@ -67,7 +44,7 @@
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <p class="pull-left"> Copyright © Laurent 2017. All right reserved. </p>
+      <p class="pull-left"> Copyright © Spishop 2017 tous droits réservés</p>
     </div>
   </div>
 </footer>

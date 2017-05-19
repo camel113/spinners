@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row">
+	  <div class="product-image-wrapper col-md-8">
+	    <div>
+	      <div class="no-padding">
+	        <div><a class="" href="/assets/img/products/{{page.image}}"><img alt="carousel image" src="/assets/img/products/{{page.image}}" class="img-responsive" title=""></a></div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="product-description-box col-md-4">
+	    <div class="row">
+	      <div class="col-sm-12">
+	        <h3 class="product-description-box-name pull-left">{{page.name}}</h3>
+	      </div>
+	      <div class="col-sm-12">
+	        <div class="product-button-section box">
+	          <span class="product-description-box-price">{{page.price}}CHF</span>
+	          <ul class="product-detail-list mb-30">
+	            <li>
+	              <span class="product-detail-list-label">reference</span>
+	              <span class="product-detail-value pull-right">{{page.sku}}</span>
+	            </li>
+	            <li>
+	              <span class="product-detail-list-label">Livraison standard</span>
+	              <span class="product-detail-value pull-right">4-7 jours ouvrés</span>
+	            </li>
+	            <li>
+	              <span class="product-detail-list-label">Livraison express</span>
+	              <span class="product-detail-value pull-right">1-2 jours ouvrés</span>
+	            </li>
+	          </ul>
+	          <a href="#" class="btn btn-primary add-item"
+	          data-item-name="{{ spinner.name }}"
+    				data-item-id="{{ spinner.sku }}"
+  					data-item-image="{{ spinner.image }}"
+    				data-item-url="{{ spinner.baseurl }}"
+    				data-item-price="{{ spinner.price }}">
+	          <span class="ti-shopping-cart"></span> Ajouter au panier
+	          </a>
+	        </div>
+	        <div class="box">
+	          <hr>
+	          <div class="box text-left">
+	            <h3 class="">{{page.title}}</h3>
+	            {{page.content}}
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
