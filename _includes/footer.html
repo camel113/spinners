@@ -11,11 +11,11 @@
           <img src="/assets/img/visa-mastercard.png" class="img-responsive visa-mastercard">
         </div>
 
-        <div class="smartphone-fw col-xs-6 col-sm-3 col-md-2">
+        <div class="smartphone-fw col-xs-6 col-sm-3 col-md-3">
           <h6 class="heading mt-0"><span>//</span> TOP SPINNERS</h6>
           <ul>
             {% for spinner in site.spinners %}
-              <li> <a href="">Fidget spinner noir</a> </li>
+              <li> <a href="{{site.url}}{{spinner.url}}">{{spinner.name}}</a> </li>
             {% endfor %}
           </ul>
         </div>
@@ -27,7 +27,7 @@
             <fieldset>
               <div class="form-group">
                 <div class="footer-newsletter">
-                  <input class="form-control" id="firstName" placeholder="First name" type="text">
+                  <input class="form-control" id="email" placeholder="email" type="email">
                   <button class="btn btn-link" type="button"><span class="ti-plus"></span></button>
                 </div>
               </div>
