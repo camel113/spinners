@@ -17,7 +17,7 @@ layout: default
 	      </div>
 	      <div class="col-sm-12">
 	        <div class="product-button-section box">
-	          <span class="product-description-box-price">{{page.price}}CHF</span>
+	          <span class="product-description-box-price">CHF&nbsp;&nbsp;{{page.price}}.-</span>
 	          <ul class="product-detail-list mb-30">
 	            <li>
 	              <span class="product-detail-list-label">reference</span>
@@ -35,7 +35,7 @@ layout: default
 	          <a href="#" class="btn btn-primary add-item snipcart-add-item"
 	          data-item-name="{{ page.name }}"
     				data-item-id="{{ page.sku }}"
-  					data-item-image="{{ page.image }}"
+  					data-item-image="/assets/img/products/{{ page.image }}"
     				data-item-url="{{ page.url }}"
     				data-item-price="{{ page.price }}">
 	          <span class="ti-shopping-cart"></span> Ajouter au panier
