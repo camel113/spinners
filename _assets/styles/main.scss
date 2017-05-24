@@ -9,6 +9,12 @@
 		margin-bottom: 20px;
 	}
 }
+.header{
+	z-index: 999;
+}
+.cart-counter{
+	font-size:10px;
+}
 @media (max-width: 768px){
 	.product-box {
     margin-bottom: 0px;
