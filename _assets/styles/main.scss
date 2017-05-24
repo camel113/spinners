@@ -20,6 +20,10 @@
 	float:right;
 	color:#111;
 }
+.navbar-fixed-top{
+	position:fixed !important;
+	border-bottom:1px solid #e7e7e7 !important;
+}
 @media (max-width: 768px){
 	.product-box {
     margin-bottom: 0px;
