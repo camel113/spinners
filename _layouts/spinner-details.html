@@ -32,14 +32,15 @@ layout: default
 	              <span class="product-detail-value pull-right">1-2 jours ouvrés</span>
 	            </li>
 	          </ul>
-	          <a href="#" class="btn btn-primary add-item"
-	          data-item-name="{{ spinner.name }}"
-    				data-item-id="{{ spinner.sku }}"
-  					data-item-image="{{ spinner.image }}"
-    				data-item-url="{{ spinner.baseurl }}"
-    				data-item-price="{{ spinner.price }}">
+	          <a href="#" class="btn btn-primary add-item snipcart-add-item"
+	          data-item-name="{{ page.name }}"
+    				data-item-id="{{ page.sku }}"
+  					data-item-image="{{ page.image }}"
+    				data-item-url="{{ page.url }}"
+    				data-item-price="{{ page.price }}">
 	          <span class="ti-shopping-cart"></span> Ajouter au panier
 	          </a>
+	          <a href="#" class="snipcart-checkout">Click here to checkout</a>
 	        </div>
 	        <div class="box">
 	          <hr>
