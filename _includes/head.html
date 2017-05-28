@@ -8,4 +8,7 @@
 	<link rel="stylesheet" href="/assets/styles/bootstrap.css">
 	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="/assets/styles/main.css">
+	{% if jekyll.environment == "production" %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
