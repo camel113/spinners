@@ -4,7 +4,7 @@ image: spinner-yellow.jpg
 price: "10.90"
 old-price: "14.90"
 slug: fidget-spinner-jaune
-sku: fsw
+sku: fsy
 layout: spinner-details
 ---
 Excellent jouet sensoriel pour celles et ceux qui ont toujours les mains agitées. Faites-le tourner pendant des heures avec une ou deux mains.
